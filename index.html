@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SYS_PORTFOLIO // GENERATIVE AI × FRONTEND DEV</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <div class="custom-cursor" id="cursor">
+      <div class="cursor-ring"></div>
+      <div class="cursor-dot"></div>
+    </div>
+
+    <!-- ===== NAV / SCANLINE HEADER ===== -->
+    <header class="topbar">
+      <div class="topbar-inner">
+        <span class="logo-pixel">[SYS_DEV]</span>
+        <nav class="nav-tags">
+          <a href="#about">ABOUT</a>
+          <a href="#stack">STACK</a>
+          <a href="#works">WORKS</a>
+          <a href="#contact">CONTACT</a>
+        </nav>
+        <span class="topbar-clock" id="clock">00:00:00</span>
+      </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero-grid-bg"></div>
+
+      <div class="hero-tag fade-up">REC ▸ PORTFOLIO_2026.EXE</div>
+
+      <h1 class="hero-title">
+        <span class="glitch-text" data-text="GENERATIVE AI">GENERATIVE AI</span>
+        <span class="hero-x">×</span>
+        <span class="glitch-text" data-text="FRONTEND">FRONTEND</span>
+        <span class="hero-title-sub glitch-text" data-text="DEVELOPER"
+          >DEVELOPER</span
+        >
+      </h1>
+
+      <p class="hero-kr fade-up">
+        픽셀 하나, 인터랙션 하나에도 힙(HIP)함을 담는 개발자입니다.
+      </p>
+
+      <div class="hero-meta fade-up">
+        <div class="meta-box">
+          <span class="meta-label">STATUS</span>
+          <span class="meta-value">ONLINE_NOW</span>
+        </div>
+        <div class="meta-box">
+          <span class="meta-label">LOCATION</span>
+          <span class="meta-value">SEOUL, KR</span>
+        </div>
+        <div class="meta-box">
+          <span class="meta-label">VER</span>
+          <span class="meta-value">v2.6.0</span>
+        </div>
+      </div>
+
+      <div class="scroll-hint">SCROLL TO DECODE ↓</div>
+    </section>
+
+    <!-- ===== BENTO MAIN ===== -->
+    <main class="bento-wrap">
+      <!-- ABOUT : SYSTEM INFO WINDOW -->
+      <section class="bento-item about-window fade-up" id="about">
+        <div class="win-titlebar">
+          <span class="win-dot"></span><span class="win-dot"></span
+          ><span class="win-dot"></span>
+          <span class="win-title">SYSTEM_INFO.WIN</span>
+        </div>
+        <div class="win-body">
+          <p class="sys-line"><span class="sys-key">NAME</span> :: 최정민</p>
+          <p class="sys-line">
+            <span class="sys-key">ROLE</span> :: GENERATIVE AI × FRONTEND DEV
+          </p>
+          <p class="sys-line">
+            <span class="sys-key">EDU</span> :: 2027년 졸업 예정
+          </p>
+          <p class="sys-line">
+            <span class="sys-key">FOCUS</span> :: 웹퍼블러셔
+          </p>
+          <div class="divider-dash"></div>
+          <p class="mindset-quote">
+            "코드로 시각적 한계를<br /><span class="neon-em">깨부숩니다.</span>"
+          </p>
+          <p class="about-kr-desc">
+            반복적인 그리드와 정형화된 레이아웃을 벗어나, 일본 서브컬처와 Y2K
+            그래픽이 가진 거친 에너지를 웹 위에 정교하게 옮기는 작업을
+            좋아합니다. AI 생성 워크플로우와 손으로 짠 인터랙션의 경계를
+            실험합니다.
+          </p>
+        </div>
+      </section>
+
+      <!-- HERO SIDE DECORATIVE PANEL -->
+      <section class="bento-item deco-panel fade-up">
+        <span class="deco-num">// 01</span>
+        <p class="deco-text">NO TEMPLATE.<br />ONLY GLITCH.</p>
+        <div class="deco-bars">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </section>
+
+      <!-- TECH STACK : ITEM INVENTORY -->
+      <section class="bento-item stack-window fade-up" id="stack">
+        <div class="win-titlebar">
+          <span class="win-dot"></span><span class="win-dot"></span
+          ><span class="win-dot"></span>
+          <span class="win-title">INVENTORY ── TECH_STACK</span>
+        </div>
+        <div class="win-body">
+          <div class="inventory-grid">
+            <div class="item-slot">
+              <span class="slot-icon">&lt;/&gt;</span
+              ><span class="slot-name">HTML</span>
+            </div>
+            <div class="item-slot">
+              <span class="slot-icon">◆</span><span class="slot-name">CSS</span>
+            </div>
+            <div class="item-slot">
+              <span class="slot-icon">JS</span><span class="slot-name">JS</span>
+            </div>
+            <div class="item-slot">
+              <span class="slot-icon">⚛</span
+              ><span class="slot-name">React</span>
+            </div>
+            <div class="item-slot">
+              <span class="slot-icon">▲</span
+              ><span class="slot-name">Next.js</span>
+            </div>
+            <div class="item-slot">
+              <span class="slot-icon">PY</span
+              ><span class="slot-name">Python</span>
+            </div>
+            <div class="item-slot">
+              <span class="slot-icon">◎</span
+              ><span class="slot-name">Figma</span>
+            </div>
+            <div class="item-slot">
+              <span class="slot-icon">N</span
+              ><span class="slot-name">Notion</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS HEADER -->
+      <section class="bento-item works-label fade-up" id="works">
+        <span class="works-eyebrow">SELECTED WORKS</span>
+        <h2 class="works-title">PROJECT<br />ARCHIVE</h2>
+      </section>
+
+      <!-- PROJECT 01 -->
+      <article class="bento-item project-card fade-up" data-tilt="-1">
+        <div class="poster-frame">
+          <span class="poster-num">P.01</span>
+          <span class="poster-tag">NEW</span>
+          <h3 class="poster-title glitch-text" data-text="RE: VISION AI">
+            RE: VISION AI
+          </h3>
+          <p class="poster-desc-kr">
+            생성형 AI로 이미지 프롬프트를 시각화하고 실시간으로 비교하는
+            크리에이티브 워크벤치. 사용자의 의도를 픽셀 단위로 분해합니다.
+          </p>
+          <div class="poster-stack">
+            <span>Next.js</span><span>OpenAI API</span><span>Tailwind</span
+            ><span>Zustand</span>
+          </div>
+          <a href="#" class="github-btn">
+            <span class="gh-icon">⌥</span> VIEW ON GITHUB
+          </a>
+        </div>
+      </article>
+
+      <!-- PROJECT 02 -->
+      <article class="bento-item project-card fade-up" data-tilt="1">
+        <div class="poster-frame">
+          <span class="poster-num">P.02</span>
+          <span class="poster-tag">BETA</span>
+          <h3 class="poster-title glitch-text" data-text="PIXEL ARCHIVE">
+            PIXEL ARCHIVE
+          </h3>
+          <p class="poster-desc-kr">
+            Y2K 감성의 도트 그래픽 에셋을 분류, 태깅, 검색하는 아카이빙 플랫폼.
+            서브컬처 디자이너를 위한 작은 박물관입니다.
+          </p>
+          <div class="poster-stack">
+            <span>React</span><span>Python</span><span>FastAPI</span
+            ><span>PostgreSQL</span>
+          </div>
+          <a href="#" class="github-btn">
+            <span class="gh-icon">⌥</span> VIEW ON GITHUB
+          </a>
+        </div>
+      </article>
+
+      <!-- FILLER GLITCH STRIP -->
+      <section class="bento-item strip-panel fade-up">
+        <p class="strip-marquee-text">
+          DO NOT SCALE DESIGN ── PRESERVE PIXELS ── HANDLE WITH GLITCH ──
+        </p>
+      </section>
+    </main>
+
+    <!-- ===== CONTACT INDEX BAR ===== -->
+    <footer class="contact-index" id="contact">
+      <div class="index-row">
+        <span class="index-label">MAIL</span>
+        <a class="index-value" href="mailto:doyoon.dev@gmail.com"
+          >doyoon.dev@gmail.com</a
+        >
+        <span class="index-arrow">→</span>
+      </div>
+      <div class="index-row">
+        <span class="index-label">GITHUB</span>
+        <a
+          class="index-value"
+          href="https://github.com/doyoon-dev"
+          target="_blank"
+          rel="noopener"
+          >github.com/doyoon-dev</a
+        >
+        <span class="index-arrow">→</span>
+      </div>
+      <div class="index-row">
+        <span class="index-label">LOCATION</span>
+        <span class="index-value">SEOUL, REPUBLIC OF KOREA</span>
+        <span class="index-arrow">→</span>
+      </div>
+      <p class="footer-credit">© 2026 SYS_PORTFOLIO. ALL PIXELS RESERVED.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
