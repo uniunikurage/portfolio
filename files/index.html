@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SYS_PORTFOLIO // GENERATIVE AI × FRONTEND DEV</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grain"></div>
+    <div class="custom-cursor" id="cursor">
+      <div class="cursor-ring"></div>
+      <div class="cursor-dot"></div>
+    </div>
+
+    <!-- ===== NAV / SCANLINE HEADER ===== -->
+    <header class="topbar">
+      <div class="topbar-inner">
+        <span class="logo-pixel">[SYS_DEV]</span>
+        <nav class="nav-tags">
+          <a href="#about">ABOUT</a>
+          <a href="#stack">STACK</a>
+          <a href="#works">WORKS</a>
+          <a href="#contact">CONTACT</a>
+        </nav>
+        <span class="topbar-clock" id="clock">00:00:00</span>
+      </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero-grid-bg"></div>
+
+      <div class="hero-tag fade-up">REC ▸ PORTFOLIO_2026.EXE</div>
+
+      <h1 class="hero-title">
+        <span class="glitch-text" data-text="GENERATIVE AI">GENERATIVE AI</span>
+        <span class="hero-x">×</span>
+        <span class="glitch-text" data-text="FRONTEND">FRONTEND</span>
+        <span class="hero-title-sub glitch-text" data-text="DEVELOPER"
+          >DEVELOPER</span
+        >
+      </h1>
+
+      <p class="hero-kr fade-up">
+        픽셀 하나, 인터랙션 하나에도 힙(HIP)함을 담는 웹퍼블러셔입니다.
+      </p>
+
+      <div class="hero-meta fade-up">
+        <div class="meta-box">
+          <span class="meta-label">STATUS</span>
+          <span class="meta-value">ONLINE_NOW</span>
+        </div>
+        <div class="meta-box">
+          <span class="meta-label">LOCATION</span>
+          <span class="meta-value">SEOUL, KR</span>
+        </div>
+        <div class="meta-box">
+          <span class="meta-label">VER</span>
+          <span class="meta-value">v2.6.0</span>
+        </div>
+      </div>
+
+      <div class="scroll-hint">SCROLL TO DECODE ↓</div>
+    </section>
+
+    <!-- ===== BENTO MAIN ===== -->
+    <main class="bento-wrap">
+      <!-- ABOUT : SYSTEM INFO WINDOW -->
+      <section class="bento-item about-window fade-up" id="about">
+        <div class="win-titlebar">
+          <span class="win-dot"></span><span class="win-dot"></span
+          ><span class="win-dot"></span>
+          <span class="win-title">SYSTEM_INFO.WIN</span>
+        </div>
+        <div class="win-body">
+          <p class="sys-line"><span class="sys-key">NAME</span> :: 최정민</p>
+          <p class="sys-line">
+            <span class="sys-key">ROLE</span> :: GENERATIVE AI × FRONTEND DEV
+          </p>
+          <p class="sys-line">
+            <span class="sys-key">EDU</span> :: 일본어문화콘텐츠학과 2027년 졸업
+            예정
+          </p>
+          <p class="sys-line">
+            <span class="sys-key">FOCUS</span> :: 웹퍼블러셔
+          </p>
+          <div class="divider-dash"></div>
+          <p class="mindset-quote">
+            "코드로 시각적 한계를<br /><span class="neon-em">깨부숩니다.</span>"
+          </p>
+          <p class="about-kr-desc">
+            일본어를 전공하며 어학 능력만으로는 경쟁력이 부족하다는 생각이
+            들었고, 다른 분야의 실무 역량을 갖추고자 프론트엔드 기술을 배우기
+            시작했습니다. 처음에는 새로운 기술을 익힌다는 가벼운 마음으로
+            시작했지만, HTML과 CSS로 화면을 하나씩 구현하고 머릿속으로만 그렸던
+            레이아웃이 실제 화면으로 만들어지는 과정을 직접 경험하면서 점점 더
+            깊이 빠져들게 되었습니다.
+          </p>
+        </div>
+      </section>
+
+      <!-- HERO SIDE DECORATIVE PANEL -->
+      <section class="bento-item deco-panel fade-up">
+        <span class="deco-num">// 01</span>
+        <p class="deco-text">NO TEMPLATE.<br />ONLY GLITCH.</p>
+        <div class="deco-bars">
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </section>
+
+      <!-- TECH STACK : ITEM INVENTORY -->
+      <section class="bento-item stack-window fade-up" id="stack">
+        <div class="win-titlebar">
+          <span class="win-dot"></span><span class="win-dot"></span
+          ><span class="win-dot"></span>
+          <span class="win-title">INVENTORY ── TECH_STACK</span>
+        </div>
+        <div class="win-body">
+          <div class="inventory-grid">
+            <div class="item-slot">
+              <span class="slot-icon">&lt;/&gt;</span
+              ><span class="slot-name">HTML</span>
+            </div>
+            <div class="item-slot">
+              <span class="slot-icon">◆</span><span class="slot-name">CSS</span>
+            </div>
+            <div class="item-slot">
+              <span class="slot-icon">JS</span><span class="slot-name">JS</span>
+            </div>
+            <div class="item-slot">
+              <span class="slot-icon">⚛</span
+              ><span class="slot-name">React</span>
+            </div>
+            <div class="item-slot">
+              <span class="slot-icon">▲</span
+              ><span class="slot-name">Next.js</span>
+            </div>
+            <div class="item-slot">
+              <span class="slot-icon">PY</span
+              ><span class="slot-name">Python</span>
+            </div>
+            <div class="item-slot">
+              <span class="slot-icon">◎</span
+              ><span class="slot-name">Figma</span>
+            </div>
+            <div class="item-slot">
+              <span class="slot-icon">N</span
+              ><span class="slot-name">Notion</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS HEADER -->
+      <section class="bento-item works-label fade-up" id="works">
+        <span class="works-eyebrow">SELECTED WORKS</span>
+        <h2 class="works-title">PROJECT<br />ARCHIVE</h2>
+      </section>
+
+      <!-- PROJECT 01 -->
+      <article class="bento-item project-card fade-up" data-tilt="-1">
+        <div class="poster-frame">
+          <span class="poster-num">P.01</span>
+          <span class="poster-tag"> NEWRE:</span>
+          <h3 class="poster-title glitch-text" data-text="RE: VISION AI">
+            VISION HR
+          </h3>
+          <p class="poster-desc-kr">
+            방대한 임직원 데이터를 직관적으로 관리하고, 부서별·사원별 역량을
+            실시간으로 대조 분석하는 기업용 통합 인사관리(HR) 워크벤치입니다.
+            데이터의 중요도에 따른 체계적인 그리드 레이아웃과 픽셀 단위의 정밀한
+            마크업으로 최적의 관리자 UX를 구현했습니다.
+          </p>
+          <div class="poster-stack">
+            <span>Next.js</span><span>HTML</span><span>React</span>
+          </div>
+          <a href="#" class="github-btn">
+            <span class="gh-icon">⌥</span> VIEW ON GITHUB
+          </a>
+        </div>
+      </article>
+
+      <!-- PROJECT 02 -->
+      <article class="bento-item project-card fade-up" data-tilt="1">
+        <div class="poster-frame">
+          <span class="poster-num">P.02</span>
+          <span class="poster-tag">BETA</span>
+          <h3 class="poster-title glitch-text" data-text="PIXEL ARCHIVE">
+            ETAPIXEL ARCHIVE
+          </h3>
+          <p class="poster-desc-kr">
+            피그마(Figma)를 완벽히 다루는 퍼블리셔로서의 그래픽 디자인 및
+            컴포넌트 설계 역량을 증명하는 Y2K 도트 감성의 아카이빙 웹
+            아플리케이션입니다. 디자이너의 가이드라인을 깊이 이해하고 있음을
+            보여주는 픽셀 단위의 정밀한 레이아웃과 감각적인 UI 구현에
+            집중했습니다.
+          </p>
+          <div class="poster-stack">
+            <span>Figma</span><span>Figma</span><span>CSS Modules</span>
+          </div>
+          <a href="#" class="github-btn">
+            <span class="gh-icon">⌥</span> VIEW ON GITHUB
+          </a>
+        </div>
+      </article>
+
+      <!-- FILLER GLITCH STRIP -->
+      <section class="bento-item strip-panel fade-up">
+        <p class="strip-marquee-text">
+          DO NOT SCALE DESIGN ── PRESERVE PIXELS ── HANDLE WITH GLITCH ──
+        </p>
+      </section>
+    </main>
+
+    <!-- ===== CONTACT INDEX BAR ===== -->
+    <footer class="contact-index" id="contact">
+      <div class="index-row">
+        <span class="index-label">MAIL</span>
+        <a class="index-value" href="mailto:mini.shukatsu@gmail.com"
+          >unikurage@gmail.com</a
+        >
+        <span class="index-arrow">→</span>
+      </div>
+      <div class="index-row">
+        <span class="index-label">GITHUB</span>
+        <a
+          class="index-value"
+          href="https://github.com/doyoon-dev"
+          target="_blank"
+          rel="noopener"
+          >github.com/uniunikurage</a
+        >
+        <span class="index-arrow">→</span>
+      </div>
+      <div class="index-row">
+        <span class="index-label">LOCATION</span>
+        <span class="index-value">SEOUL, REPUBLIC OF KOREA</span>
+        <span class="index-arrow">→</span>
+      </div>
+      <p class="footer-credit">© 2026 SYS_PORTFOLIO. ALL PIXELS RESERVED.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
